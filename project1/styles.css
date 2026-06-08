@@ -1,0 +1,19 @@
+/*CSS Document used for Project 1 Assignment
+Author: Nicole Tuttle
+Course: ITWP 1000
+File: styles.css 
+*/
+body {
+  background-color: beige;
+  color:black;
+  margin: 10px;
+  font-family: Arial, sans-serf;
+}
+
+h1, h2, nav, footer{
+  text-align: center;
+}
+
+p {
+  text-indent: 40px;
+}
