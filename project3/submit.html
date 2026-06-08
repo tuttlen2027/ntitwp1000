@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>Submit</title>
+  <meta name="description" content="This is the Submit page to the Online Pet Photography Club. This club page provides a space for photographers and pet lovers of varying skills to submit their pet photos for photo competitions to win prizes, and to just submit their photos for consideration to be shared on the site.">
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width-device-width, initial-scale=1, user-scalable=no" />
+  <meta name="keywords" content="photo club, pet photos, pet photo club" />
+ <!--<meta http-equiv="content-type" content="text/html; charset=windows-1252" />-->
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Online Pet Photography<span class="logo_colour">Club</span></a></h1>
+          <h2>Shutterbugs celebrating pets and spreading smiles.</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.htm">Welcome</a></li>
+          <li><a href="rules.html">Rules</a></li>
+          <li class="selected"><a href="submit.html">Submit</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="voting.html">Voting</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h3>March photo competition</h3>
+        <h4>Open March 1, 2026</h4>
+        <h5>Closes March 31, 2026</h5>
+        <p>Enter our March photo competition today! Dress your pets in St. Patrick's Day best, snap a pic and submit. More info on the current month's contest can be found on our<br /><a href="#">Submit</a> page.</p>
+        <p></p>
+        <h4>Take a look at the new pet category for Feathered Friends!</h4>
+        <h5>We have created a new category for photo submissions: Birds!</h5>
+        <p>Check our <a href="submit.html">Submit</a> page for more information. If you are new to our site, be sure to check our<br /><a href="rules.html">Rules</a> page.</p>
+      
+        <!--<h3>Search</h3>
+        <form method="post" action="#" id="search_form">
+          <p>
+            <input class="search" type="text" name="search_field" value="Enter keywords....." />
+            <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
+          </p>
+        </form>-->
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+         <h1>Welcome to the Online Pet Photography Club Submit!</h1> 
+        <p>Please review our <a href="rules.html"> Rules</a> page before submitting. Photos for the Online Pet Photography Club will not be accepted outside of this Submit form.</p> 
+        <p>Please enter your first and last name, email and phone number.</p> 
+        <p>In the message section, please include some information about your photo. This should include the name and age of your pet, the state and city in which the photo was taken, and the date of the photo.</p> 
+        <p>If you are entering a contest, please also enter in the message section the theme name, as well as the full opening and closing dates of the contest you wish to enter. Please additionally indicate which category of the contest you wish to enter in the message section. For March, our theme is St. Patrick’s Day. March contest entries are accepted March 1-31, 2026.</p> 
+        <p>If you simply want to submit a photo for consideration to be featured on our site, please indicate this in the message section along with the information regarding type of pet, name of pet, age of pet, etc.</p> 
+        <p>Whether or not you wish to enter a contest, please fill out the category checkbox section. Please note that we have created a new and separate category for our Feathered Friends, pet birds.</p> 
+        <p>You will be notified via email within 24 hours if your photo has been accepted. Contest winners are selected via voting on our website. If you are a contest winner, you will be notified via email on the first day of the new month after the contest due date.</p>
+        <!-- Submit -->
+            <article id="contact">
+                <h2 class="major">Submit</h2>
+                <p></p>
+                <form method="post" action="mailto:tuttlen422@macomb.edu" enctype="text/plain">
+                  <br>
+                    <div class="fields">
+                        <div class="field half">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <br>
+                        <div class="field half">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <br>
+                        <div class="field half">
+                            <label for="tel">Telephone</label>
+                            <input type="tel" name="tel" id="tel" placeholder="Enter your phone number">
+                        </div>
+                        <br>
+                        <div class="field">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="4" placeholder="Enter your comment here"></textarea>
+                        </div>
+                        <br>
+                        <div class="field">
+                            <label for="img">Select image to upload:</label>
+                            <input type="file" name="img" id="img" accept="img/*">
+                        </div>
+                        <br>
+                        <section>
+      <h3>Let us know which photo competition you wish to enter. If you wish to simply submit a photo to our website outside of a contest, check Other.</h3>
+      <fieldset>
+      <legend><strong>Categories</strong></legend>
+      <label>Dogs:<input name="dogs" id="dogs" type="checkbox" value="yes"></label>
+      <label>Cats:<input name="cats" id="cats" type="checkbox" value="yes"></label>
+      <label>Birds:<input name="birds" id="birds" type="checkbox" value="yes"></label>
+      <label>Small Animals:<input name="smallanimals" id="smallanimals" type="checkbox" value="yes"></label>
+      <label>Other:<input name="other" id="other" type="checkbox" value="yes"></label>
+      </fieldset>  
+      </section>
+                    </div>
+                    <br>
+                    <ul class="actions">
+                        <li><input type="submit" value="Send Message" class="primary"></li>
+                        <li><input type="reset" value="Reset"></li>
+                    </ul>
+                </form>
+                <!--</ul>-->
+            </article>
+             <!-- validation code goes here -->
+  
+      <a href="../home.htm">Course Homepage</a>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+      Copyright &copy; colour_blue | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a>
+      <!--JS to control the footer-->
+                <script src="js/footer_navigation.js"></script>
+    </div>
+  </div>
+</body>
+</html>
